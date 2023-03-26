@@ -26,4 +26,4 @@ http://csapp.cs.cmu.edu/3e/home.html
 https://cloud.tencent.com/developer/article/1826654
 
 * lab视频讲解
-    * [datalab](https://www.bilibili.com/video/BV183411k7VM)
+    * datalab https://www.bilibili.com/video/BV183411k7VM)
