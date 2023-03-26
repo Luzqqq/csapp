@@ -10,7 +10,7 @@
 - [x] conditional
 - [x] isLessOrEqual
 - [x] logicalNeg
-- [ ] howManyBits
+- [x] **howManyBits**
 - [ ] floatScale2
 - [ ] floatFloat2Int
 - [ ] floatPower2
@@ -30,4 +30,3 @@ https://cloud.tencent.com/developer/article/1826654
     https://www.bilibili.com/video/BV183411k7VM
     * bomb lab
     https://www.bilibili.com/video/BV1vu411o7QP
-    

@@ -275,7 +275,44 @@ int logicalNeg(int x) {
  *  Rating: 4
  */
 int howManyBits(int x) {
-  return 0;
+
+  int res = 1;
+  int bit_16, bit_8, bit_4, bit_2, bit_1;
+  int mask;
+
+  // 2 ops
+  int a = x >> 31;
+  x = x ^ a;
+
+  // 二分
+  bit_16 = !!(x >> 16);
+  mask = bit_16 << 31 >> 31;
+  x = (mask & (x >> 16)) | ((~mask) & x);
+  res = res + (bit_16 << 4);
+
+  bit_8 = !!(x >> 8);
+  mask = bit_8 << 31 >> 31;
+  x = (mask & (x >> 8)) | ((~mask) & x);
+  res = res + (bit_8 << 3);
+
+  bit_4 = !!(x >> 4);
+  mask = bit_4 << 31 >> 31;
+  x = (mask & (x >> 4)) | ((~mask) & x);
+  res = res + (bit_4 << 2);
+
+  bit_2 = !!(x >> 2);
+  mask = bit_2 << 31 >> 31;
+  x = (mask & (x >> 2)) | ((~mask) & x);
+  res = res + (bit_2 << 1);
+
+  bit_1 = x >> 1;
+  mask = bit_1 << 31 >> 31;
+  x = (mask & (x >> 1)) | ((~mask) & x);
+  res = res + (bit_1 << 1);
+
+  res = res + (x & 1 & (~bit_1));
+
+  return res;
 }
 //float
 /* 
