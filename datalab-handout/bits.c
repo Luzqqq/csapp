@@ -280,7 +280,6 @@ int howManyBits(int x) {
   int bit_16, bit_8, bit_4, bit_2, bit_1;
   int mask;
 
-  // 2 ops
   int a = x >> 31;
   x = x ^ a;
 
