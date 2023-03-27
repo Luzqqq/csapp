@@ -11,9 +11,12 @@
 - [x] isLessOrEqual
 - [x] logicalNeg
 - [x] **howManyBits**
-- [ ] floatScale2
-- [ ] floatFloat2Int
-- [ ] floatPower2
+- [x] floatScale2
+- [x] floatFloat2Int
+- [x] floatPower2 （可能会超时，运行时需要 `./btest -T 20` 设置为20秒内可通过）
+答案：https://cloud.tencent.com/developer/article/1826654
+视频讲解：https://www.bilibili.com/video/BV183411k7VM
+
 
 ## 资源
 * 课程官网
