@@ -1,19 +1,7 @@
 # csapp
 
 ## datalab
-- [x] bitXor
-- [x] tmin
-- [x] isTmax
-- [x] allOddBits
-- [x] negate
-- [x] isAsciDigit
-- [x] conditional
-- [x] isLessOrEqual
-- [x] logicalNeg
-- [x] **howManyBits**
-- [x] floatScale2
-- [x] floatFloat2Int
-- [x] floatPower2 （可能会超时，运行时需要 `./btest -T 20` 设置为20秒内可通过）
+* floatPower2 （可能会超时，运行时需要 `./btest -T 20` 设置为20秒内可通过）
 答案：https://cloud.tencent.com/developer/article/1826654
 视频讲解：https://www.bilibili.com/video/BV183411k7VM
 
