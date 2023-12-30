@@ -18,6 +18,8 @@ http://csapp.cs.cmu.edu/3e/home.html
 
 * 环境配置
 https://cloud.tencent.com/developer/article/1826654
+https://blog.csdn.net/qq_40856284/article/details/122164149
+
 
 * 笔记
 https://blog.csdn.net/hxhxhxhxx/article/details/120836374
